@@ -37,5 +37,12 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
             <version>2.2.3.RELEASE</version>
         </dependency>
+
+        <!--spring-boot-admin的server端-->
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-server</artifactId>
+            <version>2.2.4</version>
+        </dependency>
     </dependencies>
 </project>

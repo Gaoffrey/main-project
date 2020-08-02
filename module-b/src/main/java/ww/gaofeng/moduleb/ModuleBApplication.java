@@ -11,7 +11,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class ModuleBApplication {
 
     public static void main(String[] args) {
+        System.out.println("The service to start.");
         SpringApplication.run(ModuleBApplication.class, args);
+        System.out.println("The service has started.");
     }
 
 }
